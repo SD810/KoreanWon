@@ -9,7 +9,7 @@
 ```Java
 KoreanWon.readCashes(90025021500L, false);
 ```
-금 구백억 이천오백이만 일천오백원 정
+금 구백억 이천오백이만 일천오백 원정
 ```Java
 KoreanWon.readCashes(90025021500L, true);
 ```
