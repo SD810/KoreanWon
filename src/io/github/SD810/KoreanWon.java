@@ -57,10 +57,13 @@ public class KoreanWon {
             }
         }
 
-        result.append('원');
+        //https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=142496&pageIndex=1
+        // ‘금 1,056,000원’은 ‘금 일백오만 육천 원’과 같이 읽고, 띄어쓰기를 해야 합니다.
         if(space) {
             result.append(' ');
         }
+        result.append('원');
+
         result.append('정');
         return result.toString();
     }
